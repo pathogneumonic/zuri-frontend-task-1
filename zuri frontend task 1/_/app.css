@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.wrapper h2 {
+  color: #ff4040;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.input-group {
+  padding: 15px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+h4 {
+  color: #ff4040;
+  font-size: 18px;
+  text-align: center;
+  margin: 10px;
+
+}
+.input-box {
+  
+}
+.input-box .name{
+  width: 200px;
+  height: 25px;
+  border-radius: 25px;
+
+}
+.input-box .dob {
+  width: 200px;
+  height: 25px;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.input-box #b1 {
+  background-color: #ff4040;
+  border: 2px solid white;
+}
+.input-box #b2 {
+  background-color: white;
+  border: 2px solid #ff4040;
+}
+
+::placeholder {
+  color: #ff4040;
+  padding: 2px;
+  caret-color: blue;
+}
+.input-box[type="radio"] {
+  display: none;
+}
+input[type="email"] {
+  margin-top: 0px;
+}
+input[type="text"] {
+  margin: 10px 0;
+}
+input[type="tel"] {
+  border-radius: 20px;
+
+}
+input[placeholder="Card CVC"] {
+  width: 200px;
+  height: 25px;
+}
+button {
+  border: 1px solid;
+  border-radius: 8px;
+  background-color: #ff4040;
+  color: white;
+  width: 120px;
+  height: 30px;
+}
+
+i {
+  color: white;
+  background-color: #ff4040;
+  width: 25px;
+  height: 20px;
+
+  /*position: absolute;*/
+}
+
+label {
+  display: inline-block;
+  background-color: #ff4040;
+  color: white;
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+  height: 35px;
+  border-radius: 10px;
+  text-align: left;
+}
+label[for="bc1"] {
+  white-space: nowrap;
+  overflow-x: inherit;
+}
+  
